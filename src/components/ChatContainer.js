@@ -10,7 +10,7 @@ export const ChatContainer = () => {
       <div class="hr-sect">Expired Chats</div>
       <ChatCarts name="Vicente de la Cruz" msg1="Hello dear Ea!" msg2="Sorry for the inconviences. I am..." img="https://pbs.twimg.com/media/DnYQCXOX4AIzY6D.jpg"/>
       <ChatCarts name="Vicente de la Cruz" msg1="Hello dear Ea!" msg2="Sorry for the inconviences. I am..." img="https://pbs.twimg.com/media/DnYQCXOX4AIzY6D.jpg"/>
-      <ChatCarts name="Vicente de la Cruz" msg1="Hello dear Ea!" msg2="Sorry for the inconviences. I am..." img="https://pbs.twimg.com/media/DnYQCXOX4AIzY6D.jpg"/>
+
     </div>
   );
 };
