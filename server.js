@@ -8,6 +8,18 @@ var passport = require("passport");
 var Strategy = require("passport-twitter").Strategy;
 var session = require("express-session");
 
+passport.use(
+  new Strategy(
+    {
+      consumerKey: "KKBIawUSE_OWNPJwM",
+      consumerSecret: "BJCahJjoUSE_OWNTStPFAj",
+      callbackURL: "http://localhost:3000/twitter/return",
+    },
+    function (token, tokenSecret, profile, callback) {
+      return callback(null, profile);
+    }
+  )
+);
 passport.serializeUser(function (user, callback) {
   callback(null, user);
 });
